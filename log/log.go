@@ -1,9 +1,10 @@
 package log
 
 import (
-	"github.com/ian-kent/go-log/levels"
-	"github.com/ian-kent/go-log/logger"
 	"strings"
+
+	"github.com/misseven0/go-log/levels"
+	"github.com/misseven0/go-log/logger"
 )
 
 var global logger.Logger

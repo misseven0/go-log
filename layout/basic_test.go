@@ -1,9 +1,10 @@
 package layout
 
 import (
-	"github.com/ian-kent/go-log/levels"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/misseven0/go-log/levels"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestBasic(t *testing.T) {

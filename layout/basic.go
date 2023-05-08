@@ -2,7 +2,8 @@ package layout
 
 import (
 	"fmt"
-	"github.com/ian-kent/go-log/levels"
+
+	"github.com/misseven0/go-log/levels"
 )
 
 type basicLayout struct {

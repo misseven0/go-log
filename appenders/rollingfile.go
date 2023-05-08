@@ -2,12 +2,13 @@ package appenders
 
 import (
 	"fmt"
-	"github.com/ian-kent/go-log/layout"
-	"github.com/ian-kent/go-log/levels"
 	"os"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/misseven0/go-log/layout"
+	"github.com/misseven0/go-log/levels"
 )
 
 type rollingFileAppender struct {
